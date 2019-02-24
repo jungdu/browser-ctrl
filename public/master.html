@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Master.html</h2>
+    <div>
+      <div>
+        <label for="alt_msg"> Alert Message : </label>
+        <input
+          type="text"
+          name="alt_msg"
+          id="alt_msg"
+          placeholder="put message"
+        />
+        <button id="alert_btn">SEND</button>
+      </div>
+      <div>
+        <label for="uri"> Page URI : </label>
+        <input type="text" name="uri" id="uri" placeholder="put uri" />
+        <button id="loaduri_btn">SEND</button>
+      </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/master.js"></script>
+  </body>
+</html>
